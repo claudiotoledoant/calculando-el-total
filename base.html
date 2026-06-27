@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafío 1 - JavaScript</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="assets/estilos.css">
+    <link rel="stylesheet" href="index.js">
 </head>
 
 <body>
@@ -15,15 +16,13 @@
         <div class="card">
             <div class="img-card"></div>
               <h6>Laptop Gamer AMD</h6>
-              <p>Precio base: $<span class="precio-inicial"></span> </p>
+        <p>Precio base: $<span class="precio-inicial"></span></p>
         
-              <p>Cantidad:
-                <span class="cantidad">0</span>
-                <button 
-                >+</button>
-                <button
-                >-</button>
-              </p>
+            <p>Cantidad:
+    <span class="cantidad">0</span>
+    <button onclick="aumentarCantidad()">+</button>
+    <button onclick="disminuirCantidad()">-</button>
+</p>
             </div>
 
         </div>
